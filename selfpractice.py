@@ -1,6 +1,9 @@
-print(" i am fine ")
+from sqr import mSquare
 
-a = 5
-b = 6
-c = a**b
-print(c)
+n = input("Please enter a number : ")
+
+#  print(mSquare(n))
+
+l = mSquare(n)
+
+print(l)
